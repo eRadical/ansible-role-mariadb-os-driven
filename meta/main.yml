@@ -1,0 +1,16 @@
+#SPDX-License-Identifier: MIT
+galaxy_info:
+  author: eRadical
+  description: Manage MariaDB w/ Ansible but make no change to the way MariaDB is packaged in the OS
+
+  issue_tracker_url: https://github.com/eRadical/ansible-role-mariadb-os-driven/issues
+
+  license: MIT
+
+  min_ansible_version: 13.0
+
+  galaxy_tags:
+    - mariadb
+    - fedora
+
+dependencies: []
