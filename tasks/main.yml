@@ -1,3 +1,13 @@
 #SPDX-License-Identifier: MIT
 ---
-# tasks file for mariadb-os-driven
+
+- import_tasks: server.yaml
+
+- import_tasks: pam.yaml
+
+- import_tasks: gssapi.yaml
+
+- import_tasks: engines.yaml
+
+- import_tasks: connectors.yaml
+
